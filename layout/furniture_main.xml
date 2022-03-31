@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/olive"
+    tools:context=".furniture">
+
+    <!-- android:numColumns=2 is the number of columns for Grid View
+        android:horizontalSpacing is the space between horizontal
+        grid items.-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Furniture"
+        tools:ignore="MissingConstraints" />
+    <GridView
+        android:id="@+id/idGVcourses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="7dp"
+        android:layout_marginTop="50dp"
+        android:numColumns="2"
+        android:verticalSpacing="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

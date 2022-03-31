@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Handicraft Ecommerce Application</string>
+
+    <array name="categories_list">
+        <item>Pottery</item>
+        <item>Furniture</item>
+        <item>Clothing</item>
+        <item>Jewellery</item>
+    </array>
+
+</resources>
