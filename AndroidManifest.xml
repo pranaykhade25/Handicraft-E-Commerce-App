@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handicraftecommerceapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HandicraftEcommerceApplication">
+        <activity
+            android:name=".Success_Order_placed"
+            android:exported="false" />
+        <activity
+            android:name=".Display_Received_Orders"
+            android:exported="false" />
+        <activity
+            android:name=".Display_selected_furniture"
+            android:exported="false" />
+        <activity
+            android:name=".Display_selected_jewellery"
+            android:exported="false" />
+        <activity
+            android:name=".Display_selected_clothing"
+            android:exported="false" />
+        <activity
+            android:name=".Display_selected_pottery"
+            android:exported="false" />
+        <activity
+            android:name=".paymentdetails"
+            android:exported="false" />
+        <activity
+            android:name=".Jewellery_List"
+            android:exported="false" />
+        <activity
+            android:name=".Furniture_List"
+            android:exported="false" />
+        <activity
+            android:name=".Clothing_List"
+            android:exported="false" />
+        <activity
+            android:name=".Pottery_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Categories"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_List"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".clothing"
+            android:exported="false" />
+        <activity
+            android:name=".pottery"
+            android:exported="false" />
+        <activity
+            android:name=".furniture"
+            android:exported="false" />
+        <activity
+            android:name=".jewellery"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Customer"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
